@@ -1,8 +1,7 @@
 #Program creates an acronym for two or more words. 
 
-def any(iterable): #the any function is not bulit in this verison of python (2.4.4). 
-    for element in iterable: #I went to the python library (http://docs.python.org/2.7/library/functions.html#any) and found the code to manually import the any function
-        if element:
+def any(iterable):
+    for element in iterable:
             return True
     return False
 
